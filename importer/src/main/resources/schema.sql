@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	company_id INT NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	birthdate DATE NOT NULL
+);
